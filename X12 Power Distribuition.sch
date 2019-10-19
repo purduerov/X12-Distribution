@@ -5974,19 +5974,19 @@ W = angled&lt;p&gt;
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="22V"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="5V"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="22V"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" ">
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value="1M">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" ">
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value="10K">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="15V"/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" ">
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value="1M">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="SPB80P06P" device="" package3d_urn="urn:adsk.eagle:package:28539/2"/>
 <part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" "/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value="470"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
 <part name="U$8" library="PI_Shield_Library" deviceset="TCAN337D" device=""/>
@@ -6022,7 +6022,7 @@ W = angled&lt;p&gt;
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value=" "/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650@1/1" value="470"/>
 <part name="GND11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="BANANA_CONN" device=""/>
