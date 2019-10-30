@@ -1793,29 +1793,26 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="U$7" pad="15"/>
 </signal>
-<signal name="DATA">
+<signal name="DATA_B">
 <contactref element="U$7" pad="32"/>
-<contactref element="U$5" pad="32"/>
-<contactref element="U$4" pad="PA10"/>
-<wire x1="50.41" y1="102.73" x2="95.123" y2="71.755" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="71.755" x2="50.41" y2="102.73" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CLK">
+<signal name="CLK_B">
 <contactref element="U$7" pad="30"/>
-<contactref element="U$5" pad="30"/>
-<contactref element="U$4" pad="PA9"/>
-<wire x1="50.41" y1="101.93" x2="92.583" y2="71.755" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="71.755" x2="50.41" y2="101.93" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="ALERT">
+<signal name="ALERT_B">
 <contactref element="U$7" pad="31"/>
-<contactref element="U$5" pad="31"/>
-<contactref element="U$4" pad="PB7"/>
-<wire x1="44.96" y1="107.38" x2="95.123" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="74.295" x2="44.96" y2="107.38" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CLK_A">
+<contactref element="U$5" pad="30"/>
+</signal>
+<signal name="DATA_A">
+<contactref element="U$5" pad="32"/>
 </signal>
 <signal name="N$57">
 <contactref element="U$5" pad="29"/>
+</signal>
+<signal name="ALERT_A">
+<contactref element="U$5" pad="31"/>
 </signal>
 <signal name="N$85">
 <contactref element="U$5" pad="2"/>
