@@ -7066,11 +7066,6 @@ W = angled&lt;p&gt;
 <label x="264.16" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="472.44" y1="78.74" x2="487.68" y2="78.74" width="0.1524" layer="91"/>
-<label x="487.68" y="78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="137.16" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="22.86" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
@@ -7635,6 +7630,11 @@ W = angled&lt;p&gt;
 <wire x1="551.18" y1="53.34" x2="551.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="551.18" y1="45.72" x2="541.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="541.02" y="45.72" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="472.44" y1="78.74" x2="487.68" y2="78.74" width="0.1524" layer="91"/>
+<label x="487.68" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$82" class="0">
