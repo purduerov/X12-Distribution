@@ -183,11 +183,7 @@ CONNECTOR</text>
 CONNECTOR</text>
 <text x="90.678" y="42.799" size="1.778" layer="25">BRICK B
 CONNECTOR</text>
-<text x="129.413" y="70.612" size="0.762" layer="25">Reset</text>
-<text x="137.668" y="70.612" size="0.762" layer="25">Clock</text>
-<text x="140.97" y="70.612" size="0.762" layer="25">+3V3</text>
-<text x="135.001" y="70.612" size="0.762" layer="25">GND</text>
-<text x="132.715" y="70.612" size="0.762" layer="25">DIO</text>
+<text x="129.54" y="70.485" size="0.889" layer="25">Pin 1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
