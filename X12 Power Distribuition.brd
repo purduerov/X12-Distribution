@@ -1359,14 +1359,14 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$6" pad="8"/>
 <contactref element="U$6" pad="10"/>
 <contactref element="U$6" pad="12"/>
-<polygon width="0.762" layer="1">
+<polygon width="0.762" layer="1" isolate="0.8128">
 <vertex x="57.15" y="64.77"/>
 <vertex x="105.41" y="64.77"/>
 <vertex x="108.585" y="61.595"/>
 <vertex x="108.585" y="50.165"/>
 <vertex x="103.759" y="45.339"/>
-<vertex x="21.209" y="45.339"/>
-<vertex x="11.43" y="35.56"/>
+<vertex x="18.669" y="45.339"/>
+<vertex x="8.89" y="35.56"/>
 <vertex x="2.921" y="35.56"/>
 <vertex x="2.921" y="51.816"/>
 <vertex x="53.34" y="51.816"/>
@@ -1391,7 +1391,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$7" pad="42"/>
 <contactref element="U$7" pad="41"/>
 <contactref element="U$7" pad="43"/>
-<polygon width="0.254" layer="1">
+<polygon width="0.8128" layer="1" isolate="0.8128" thermals="no">
 <vertex x="46.4312" y="71.7296"/>
 <vertex x="46.4312" y="54.3814"/>
 <vertex x="47.5996" y="53.213"/>
@@ -1423,16 +1423,15 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$5" pad="42"/>
 <contactref element="U$5" pad="43"/>
 <contactref element="U$5" pad="41"/>
-<polygon width="0.254" layer="1">
-<vertex x="104.3686" y="70.866"/>
+<polygon width="0.8128" layer="1" isolate="0.8128" thermals="no">
+<vertex x="104.7496" y="70.485"/>
 <vertex x="110.5662" y="64.6684"/>
 <vertex x="110.5662" y="52.2732"/>
 <vertex x="110.4138" y="52.1208"/>
 <vertex x="116.0018" y="52.1208"/>
-<vertex x="119.6848" y="55.8038"/>
-<vertex x="119.6848" y="75.1078"/>
+<vertex x="119.1768" y="55.2958"/>
+<vertex x="119.1768" y="75.1078"/>
 <vertex x="104.7496" y="75.1078"/>
-<vertex x="104.3686" y="74.7268"/>
 </polygon>
 </signal>
 <signal name="N$1">
@@ -1517,7 +1516,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$5" pad="23"/>
 <contactref element="U$5" pad="25"/>
 <contactref element="U$5" pad="27"/>
-<polygon width="0.762" layer="1">
+<polygon width="0.762" layer="1" isolate="0.8128" thermals="no">
 <vertex x="51.435" y="40.005"/>
 <vertex x="51.435" y="35.56"/>
 <vertex x="63.5" y="23.495"/>
@@ -1620,7 +1619,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$5" pad="11"/>
 <contactref element="U$5" pad="13"/>
 <polygon width="0.762" layer="16">
-<vertex x="20.955" y="74.93"/>
+<vertex x="21.336" y="75.311"/>
 <vertex x="19.685" y="73.66"/>
 <vertex x="19.685" y="55.245"/>
 <vertex x="33.655" y="41.275"/>
@@ -1630,9 +1629,9 @@ Please make sure your boards conform to these design rules.
 <vertex x="48.895" y="36.83"/>
 <vertex x="48.895" y="40.64"/>
 <vertex x="28.575" y="60.96"/>
-<vertex x="28.575" y="74.93"/>
+<vertex x="28.575" y="75.311"/>
 </polygon>
-<polygon width="0.762" layer="1">
+<polygon width="0.762" layer="1" isolate="0.8128" thermals="no">
 <vertex x="48.26" y="40.005"/>
 <vertex x="48.26" y="34.925"/>
 <vertex x="48.26" y="32.385"/>
@@ -1647,7 +1646,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="48.26" y="40.64"/>
 </polygon>
 <via x="89.535" y="18.415" extent="1-16" drill="0.85" diameter="1.3"/>
-<polygon width="0.762" layer="16">
+<polygon width="0.762" layer="16" isolate="0.8128" thermals="no">
 <vertex x="92.075" y="40.005"/>
 <vertex x="92.075" y="29.21"/>
 <vertex x="88.265" y="25.4"/>
@@ -1684,23 +1683,17 @@ Please make sure your boards conform to these design rules.
 <via x="92.71" y="12.065" extent="1-16" drill="0.85" diameter="1.3"/>
 <via x="95.885" y="12.065" extent="1-16" drill="0.85" diameter="1.3"/>
 <via x="99.06" y="12.065" extent="1-16" drill="0.85" diameter="1.3"/>
-<polygon width="0.254" layer="1">
-<vertex x="23.495" y="13.97"/>
+<polygon width="0.762" layer="1">
+<vertex x="23.495" y="14.097"/>
 <vertex x="23.495" y="12.065"/>
-<vertex x="22.225" y="10.795"/>
-<vertex x="20.32" y="8.89"/>
-<vertex x="20.32" y="8.255"/>
-<vertex x="20.32" y="2.54"/>
+<vertex x="19.939" y="8.509"/>
+<vertex x="19.939" y="2.921"/>
 <vertex x="21.59" y="1.27"/>
-<vertex x="24.13" y="1.27"/>
 <vertex x="26.035" y="1.27"/>
 <vertex x="27.305" y="2.54"/>
-<vertex x="27.305" y="5.715"/>
 <vertex x="27.305" y="13.335"/>
 <vertex x="26.289" y="14.351"/>
-<vertex x="24.257" y="14.351"/>
 <vertex x="23.749" y="14.351"/>
-<vertex x="23.495" y="14.097"/>
 </polygon>
 <wire x1="36.57" y1="11.835" x2="45.085" y2="20.35" width="1.27" layer="1"/>
 <wire x1="45.085" y1="20.35" x2="45.085" y2="36.9824" width="1.27" layer="1"/>
@@ -1709,13 +1702,13 @@ Please make sure your boards conform to these design rules.
 <contactref element="Q1" pad="1"/>
 <contactref element="J1" pad="P$1"/>
 <polygon width="0.762" layer="16">
-<vertex x="16.51" y="74.93"/>
+<vertex x="16.51" y="75.311"/>
 <vertex x="16.51" y="53.975"/>
 <vertex x="28.575" y="41.91"/>
 <vertex x="28.575" y="37.465"/>
 <vertex x="17.78" y="37.465"/>
 <vertex x="8.89" y="46.355"/>
-<vertex x="8.89" y="74.93"/>
+<vertex x="8.89" y="75.311"/>
 </polygon>
 <polygon width="0.762" layer="1">
 <vertex x="12.7" y="31.75"/>
@@ -1788,7 +1781,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$7" pad="35"/>
 <contactref element="U$7" pad="37"/>
 <contactref element="U$7" pad="39"/>
-<polygon width="0.762" layer="16">
+<polygon width="0.762" layer="16" isolate="0.8128" thermals="no">
 <vertex x="102.743" y="75.057"/>
 <vertex x="104.14" y="73.66"/>
 <vertex x="104.14" y="69.85"/>
@@ -1800,18 +1793,18 @@ Please make sure your boards conform to these design rules.
 <vertex x="46.355" y="74.295"/>
 <vertex x="46.355" y="69.977"/>
 <vertex x="46.99" y="69.342"/>
-<vertex x="83.82" y="69.342"/>
-<vertex x="89.535" y="75.057"/>
+<vertex x="84.836" y="69.342"/>
+<vertex x="90.551" y="75.057"/>
 </polygon>
-<polygon width="0.762" layer="16">
+<polygon width="0.762" layer="16" isolate="0.8128">
 <vertex x="69.215" y="68.58"/>
 <vertex x="69.215" y="36.195"/>
 <vertex x="66.675" y="33.655"/>
 <vertex x="10.16" y="33.655"/>
 <vertex x="8.89" y="34.925"/>
-<vertex x="2.54" y="34.925"/>
-<vertex x="2.54" y="19.685"/>
-<vertex x="73.66" y="19.685"/>
+<vertex x="2.667" y="34.925"/>
+<vertex x="2.667" y="20.955"/>
+<vertex x="74.93" y="20.955"/>
 <vertex x="82.55" y="28.575"/>
 <vertex x="82.55" y="69.215"/>
 <vertex x="81.915" y="68.58"/>
@@ -2159,9 +2152,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="112.2562" y1="50.0888" x2="112.2562" y2="45.212" width="0.762" layer="1"/>
 <wire x1="112.2562" y1="45.212" x2="112.2308" y2="45.1866" width="0.762" layer="1"/>
 <wire x1="112.2308" y1="45.1866" x2="112.2308" y2="43.5982" width="0.762" layer="1"/>
-<wire x1="123.8622" y1="41.656" x2="124.0536" y2="41.8474" width="0.762" layer="1"/>
-<wire x1="112.2308" y1="43.5982" x2="114.173" y2="41.656" width="0.762" layer="1"/>
-<wire x1="114.173" y1="41.656" x2="123.8622" y2="41.656" width="0.762" layer="1"/>
+<wire x1="112.2308" y1="43.5982" x2="113.792" y2="42.037" width="0.762" layer="1"/>
+<wire x1="124.0536" y1="41.8474" x2="123.864" y2="42.037" width="0.762" layer="1"/>
+<wire x1="123.864" y1="42.037" x2="113.792" y2="42.037" width="0.762" layer="1"/>
 </signal>
 <signal name="DATA">
 <contactref element="U$4" pad="PA10"/>
