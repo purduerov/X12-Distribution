@@ -1517,15 +1517,15 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$5" pad="23"/>
 <contactref element="U$5" pad="25"/>
 <contactref element="U$5" pad="27"/>
-<polygon width="0.762" layer="1" isolate="0.762" thermals="no">
+<polygon width="0.762" layer="1" isolate="0.8128" thermals="no">
 <vertex x="51.435" y="40.005"/>
 <vertex x="51.435" y="35.56"/>
 <vertex x="63.5" y="23.495"/>
 <vertex x="115.57" y="23.495"/>
 <vertex x="124.46" y="32.385"/>
-<vertex x="124.46" y="40.64"/>
-<vertex x="124.333" y="40.767"/>
-<vertex x="110.617" y="40.767"/>
+<vertex x="124.46" y="39.37"/>
+<vertex x="123.19" y="40.64"/>
+<vertex x="110.49" y="40.64"/>
 <vertex x="109.855" y="40.005"/>
 <vertex x="109.855" y="35.56"/>
 <vertex x="107.95" y="33.655"/>
