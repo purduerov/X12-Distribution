@@ -188,6 +188,8 @@ CONNECTOR</text>
 <text x="140.97" y="70.612" size="0.762" layer="25">+3V3</text>
 <text x="135.001" y="70.612" size="0.762" layer="25">GND</text>
 <text x="132.715" y="70.612" size="0.762" layer="25">DIO</text>
+<text x="4.318" y="14.986" size="0.762" layer="25">12V LED</text>
+<text x="147.066" y="52.578" size="0.762" layer="25">Micro LED</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
