@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1534,19 +1534,15 @@ Please make sure your boards conform to these design rules.
 <vertex x="72.39" y="33.655"/>
 <vertex x="66.04" y="40.005"/>
 </polygon>
-<polygon width="0.762" layer="1">
-<vertex x="12.7" y="26.67"/>
-<vertex x="12.065" y="26.035"/>
+<polygon width="0.762" layer="1" thermals="no">
+<vertex x="12.065" y="18.923"/>
 <vertex x="12.065" y="10.16"/>
 <vertex x="10.16" y="8.255"/>
 <vertex x="10.16" y="3.175"/>
 <vertex x="12.065" y="1.27"/>
 <vertex x="17.145" y="1.27"/>
 <vertex x="17.78" y="1.905"/>
-<vertex x="17.78" y="14.605"/>
-<vertex x="17.78" y="26.035"/>
-<vertex x="17.145" y="26.67"/>
-<vertex x="13.97" y="26.67"/>
+<vertex x="17.78" y="18.923"/>
 </polygon>
 <wire x1="42.295" y1="2.71" x2="32.385" y2="2.71" width="0.762" layer="1"/>
 <wire x1="32.385" y1="2.71" x2="31.115" y2="3.98" width="0.762" layer="1"/>
@@ -1584,6 +1580,12 @@ Please make sure your boards conform to these design rules.
 <vertex x="116.205" y="3.175"/>
 <vertex x="121.285" y="8.255"/>
 <vertex x="121.285" y="32.385"/>
+</polygon>
+<polygon width="0.762" layer="1" isolate="0.762">
+<vertex x="12.0904" y="17.526"/>
+<vertex x="12.0904" y="27.178"/>
+<vertex x="17.78" y="27.178"/>
+<vertex x="17.78" y="17.526"/>
 </polygon>
 </signal>
 <signal name="48V_GND">
@@ -1627,8 +1629,8 @@ Please make sure your boards conform to these design rules.
 <vertex x="48.26" y="36.195"/>
 <vertex x="48.895" y="36.83"/>
 <vertex x="48.895" y="40.64"/>
-<vertex x="28.575" y="60.96"/>
-<vertex x="28.575" y="75.311"/>
+<vertex x="28.321" y="61.214"/>
+<vertex x="28.321" y="75.311"/>
 </polygon>
 <polygon width="0.762" layer="1" isolate="0.8128" thermals="no">
 <vertex x="48.26" y="40.005"/>
@@ -1674,15 +1676,15 @@ Please make sure your boards conform to these design rules.
 <via x="92.71" y="12.065" extent="1-16" drill="0.85" diameter="1.3"/>
 <via x="95.885" y="12.065" extent="1-16" drill="0.85" diameter="1.3"/>
 <via x="99.06" y="12.065" extent="1-16" drill="0.85" diameter="1.3"/>
-<polygon width="0.762" layer="1">
-<vertex x="23.495" y="14.097"/>
-<vertex x="23.495" y="12.065"/>
-<vertex x="19.939" y="8.509"/>
+<polygon width="0.762" layer="1" thermals="no">
+<vertex x="22.733" y="13.335"/>
+<vertex x="22.733" y="12.065"/>
+<vertex x="19.939" y="9.271"/>
 <vertex x="19.939" y="2.921"/>
 <vertex x="21.59" y="1.27"/>
 <vertex x="26.035" y="1.27"/>
-<vertex x="27.305" y="2.54"/>
-<vertex x="27.305" y="13.335"/>
+<vertex x="28.067" y="3.302"/>
+<vertex x="28.067" y="12.573"/>
 <vertex x="26.289" y="14.351"/>
 <vertex x="23.749" y="14.351"/>
 </polygon>
@@ -1724,14 +1726,13 @@ Please make sure your boards conform to these design rules.
 <vertex x="25.654" y="10.414"/>
 <vertex x="31.496" y="10.414"/>
 <vertex x="32.766" y="11.684"/>
-<vertex x="32.766" y="11.938"/>
 <vertex x="32.766" y="13.97"/>
 </polygon>
 </signal>
 <signal name="+48V_RAW">
 <contactref element="Q1" pad="1"/>
 <contactref element="J1" pad="P$1"/>
-<polygon width="0.762" layer="16">
+<polygon width="0.762" layer="16" thermals="no">
 <vertex x="16.51" y="75.311"/>
 <vertex x="16.51" y="53.975"/>
 <vertex x="28.575" y="41.91"/>
